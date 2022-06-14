@@ -33,8 +33,8 @@ elif randomNo == 2:
     comp = "Paper" 
 elif randomNo == 3:
     comp = "Scissor"
-print("Your turn: Rock | Paper | Scissor")
-you = input("Rock | Paper | Scissor ?\n")
+
+you = input("Your turn: Rock | Paper | Scissor ?\n")
 
 a = gameprocessor(comp,you)
 print(f"Computer chose:{comp}")
